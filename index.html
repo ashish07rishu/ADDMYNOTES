@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 My Notes App</h1>
+        </header>
+        
+        <div class="input-section">
+            <textarea 
+                id="noteInput" 
+                placeholder="Write your note here..." 
+                rows="4"
+            ></textarea>
+            <button id="addNoteBtn" class="add-btn">Add Note</button>
+        </div>
+        
+        <div class="notes-section">
+            <h2>Your Notes</h2>
+            <div id="notesContainer" class="notes-container">
+                <!-- Notes will be displayed here dynamically -->
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Ashish Kumar. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
