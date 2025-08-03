@@ -2,6 +2,9 @@
 
 A fully functional, responsive Notes application built with vanilla HTML, CSS, and JavaScript. This app allows users to create, view, and delete notes with persistent storage using localStorage.
 
+## 🌐 Live Demo
+🔗 **[Try the app live here!](https://addmynotes.netlify.app/)**
+
 ## 🚀 Features
 
 - ✅ **Add Notes**: Create new notes using a textarea and button
